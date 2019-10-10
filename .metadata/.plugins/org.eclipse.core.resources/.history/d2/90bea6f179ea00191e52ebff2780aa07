@@ -1,0 +1,37 @@
+package mail;
+
+import javax.mail.Message;
+import javax.mail.Session;
+import javax.mail.internet.MimeMessage;
+
+/**
+ * 简单邮件发送器  不带附件的
+ * @author lenovo
+ *
+ */
+public class SimpleMailSender {
+
+	/**
+	 * 文本格式的发送
+	 * @param mailInfo
+	 */
+	public void sendTextMail(MailSendInfo mailInfo) {
+		//判断是否需要身份认证
+		MyAuthenticator authenticator = null;
+		
+		if (mailInfo.isValidate()) {
+			//如果需要身份证认  创建一个身份认证器
+			authenticator = new MyAuthenticator(mailInfo.getUserName(), mailInfo.getPassword());
+		}
+
+		//根据邮件会话属性和密码认证器创建一个session
+		Session mailSession = Session.getInstance(mailInfo.getProperties(), authenticator);
+		//根据session创建一个邮件消息
+		Message message = new MimeMessage(mailSession);
+		
+		message.addFrom(arg0);
+		
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package mail;
+
+public class MultiMailSender {
+
+	
+	public static boolean sendMailtoMultiRevices() {
+		
+	}
+	
+}

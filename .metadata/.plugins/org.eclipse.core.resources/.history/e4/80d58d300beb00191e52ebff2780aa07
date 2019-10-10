@@ -1,0 +1,22 @@
+package mail;
+
+
+public class MultiMailSender {
+
+	/**
+	 * 发送给带抄送者
+	 * @param mailInfo
+	 * @return
+	 */
+	public static boolean sendMailtoMultiCC(MultiMailSenderInfo mailInfo) {
+		
+		MyAuthenticator atthenticator = null;
+		
+		if (mailInfo.isValidate()) {
+			
+		}
+		
+		return false;
+	}
+	
+}

@@ -1,0 +1,19 @@
+package mail;
+
+/**
+ * 简单邮件发送器  不带附件的
+ * @author lenovo
+ *
+ */
+public class SimpleMailSender {
+
+	/**
+	 * 文本格式的发送
+	 * @param mailInfo
+	 */
+	public void sendTextMail(MailSendInfo mailInfo) {
+		
+	}
+	
+	
+}

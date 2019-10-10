@@ -1,0 +1,39 @@
+package mail;
+
+import java.util.Properties;
+
+public class MailSendInfo {
+
+	//发送邮件的服务器和端口
+	private String mailServerHost = "";
+	private String mailServerPort = "25";
+
+	//邮件发送者的地址
+	private String fromAddress = "810458068@qq.com";
+	//邮件接收者的地址
+	private String toAdderss;
+
+	//登录邮件发送服务器的用户名和密码
+	private String userName;
+	private String password;
+	//是否需要自身份验证
+	private boolean validate = true;
+	
+	//邮件主题
+	private String subject;
+	//内容
+	private String context;
+	//附件名称
+	private String[] attachfileNames;
+	
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public Properties getProperties(){
+		
+	}
+	
+	
+}

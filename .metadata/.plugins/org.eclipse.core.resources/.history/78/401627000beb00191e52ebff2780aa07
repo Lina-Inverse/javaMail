@@ -1,0 +1,18 @@
+package mail;
+
+
+public class MultiMailSender {
+
+	/**
+	 * 发送邮件给多个接收者
+	 * @param mailInfo 待发邮件的信息
+	 * @return
+	 */
+	public static boolean sendMailtoMultiRevices() {
+		
+		myauthen
+		
+		return false;
+	}
+	
+}

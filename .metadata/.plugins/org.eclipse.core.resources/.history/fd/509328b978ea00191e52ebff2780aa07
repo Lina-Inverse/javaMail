@@ -1,0 +1,12 @@
+package mail;
+
+/**
+ * 简单邮件发送器  不带附件的
+ * @author lenovo
+ *
+ */
+public class SimpleMailSender {
+
+	
+	
+}

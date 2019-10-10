@@ -1,0 +1,15 @@
+package mail;
+
+import java.util.Properties;
+
+public class SendMail {
+
+	public static void main(String[] args) {
+		
+		Properties props = new Properties();
+		props.setProperty("mail.smtp.auth", "true");
+		props.setProperty("mail.transport.protocol", "smtp");
+		
+	}
+	
+}

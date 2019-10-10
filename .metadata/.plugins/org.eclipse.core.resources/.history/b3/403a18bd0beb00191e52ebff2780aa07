@@ -1,0 +1,32 @@
+package mail;
+
+import javax.mail.Message;
+import javax.mail.Session;
+import javax.mail.internet.MimeMessage;
+
+
+public class MultiMailSender {
+
+	/**
+	 * 发送给带抄送者
+	 * @param mailInfo
+	 * @return
+	 */
+	public static boolean sendMailtoMultiCC(MultiMailSenderInfo mailInfo) {
+		
+		MyAuthenticator authenticator = null;
+		
+		if (mailInfo.isValidate()) {
+			authenticator = new MyAuthenticator(mailInfo.getUserName(), mailInfo.getPassword());
+		}
+		
+		Session session = Session.getInstance(mailInfo.getProperties(), authenticator);
+		session.setDebug(true);
+		Message message = new MimeMessage(session);
+		//
+		
+		
+		return false;
+	}
+	
+}

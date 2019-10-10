@@ -1,0 +1,16 @@
+package mail;
+
+public class MultiMailSender {
+
+	/**
+	 * 
+	 * @param mailInfo
+	 * @return
+	 */
+	public static boolean sendMailtoMultiRevices(MultiSenderInfo mailInfo) {
+		
+		
+		return false;
+	}
+	
+}

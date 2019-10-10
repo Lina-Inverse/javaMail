@@ -1,0 +1,19 @@
+INDEX VERSION 1.126+D:\workplace_temp\mail\.metadata\.plugins\org.eclipse.jdt.core
+2658203719.index
+151273147.index
+3086758309.index
+3474385695.index
+2983846369.index
+779893401.index
+3852630231.index
+715771869.index
+2087379733.index
+3227161153.index
+1590923907.index
+1113016416.index
+2129522328.index
+709391253.index
+1525093640.index
+3309812868.index
+2335429932.index
+893552198.index

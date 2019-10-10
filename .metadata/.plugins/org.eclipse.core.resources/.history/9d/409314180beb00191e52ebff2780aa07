@@ -1,0 +1,18 @@
+package mail;
+
+
+public class MultiMailSender {
+
+	/**
+	 * 
+	 * @param mailInfo
+	 * @return
+	 */
+	public static boolean sendMailtoMultiCC(MultiMailSenderInfo mailInfo) {
+		
+		myauthen
+		
+		return false;
+	}
+	
+}

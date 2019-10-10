@@ -1,0 +1,39 @@
+package mail;
+
+import java.util.Properties;
+
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+public class SendMail {
+
+	public static void main(String[] args) {
+		
+		Properties props = new Properties();
+		props.setProperty("mail.smtp.auth", "true");
+		props.setProperty("mail.transport.protocol", "smtp");
+		
+		Session session = Session.getInstance(props);
+		session.setDebug(true);
+		Message message = new MimeMessage(session);
+		
+		try {
+			message.setSubject("这个一封电子邮件。。。。");
+			message.setText("这是我发送的第一封邮件，一定要看看哦");
+			message.setFrom(new InternetAddress("810458068@qq.com"));
+
+			Transport transport = session.getTransport();
+			
+			
+		} catch (MessagingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+}

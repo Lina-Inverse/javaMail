@@ -1,0 +1,8 @@
+package mail;
+
+public class MailSendInfo {
+
+	//发送邮件的服务器和端口
+	private String mailServerHost = "";
+	private String mailServerPort = 25;
+}

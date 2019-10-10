@@ -1,0 +1,22 @@
+package mail;
+
+import javax.mail.Authenticator;
+
+/**
+ * 邮件身份认证器， 在发送邮件前认证
+ * @author lenovo
+ *
+ */
+public class MyAuthenticator extends Authenticator {
+
+	//登录发送邮件服务器的用户名
+	private String userName;
+	//登录发送邮件服务器的密码
+	private String password;
+	
+	public MyAuthenticator() {
+		
+	}
+	
+	
+}

@@ -1,0 +1,29 @@
+package mail;
+
+import javax.mail.Authenticator;
+import javax.mail.Session;
+
+
+public class MultiMailSender {
+
+	/**
+	 * 发送给带抄送者
+	 * @param mailInfo
+	 * @return
+	 */
+	public static boolean sendMailtoMultiCC(MultiMailSenderInfo mailInfo) {
+		
+		MyAuthenticator authenticator = null;
+		
+		if (mailInfo.isValidate()) {
+			authenticator = new MyAuthenticator(mailInfo.getUserName(), mailInfo.getPassword());
+		}
+		
+		Session session = Session.getInstance(mailInfo.getProperties(), Authenticator);
+		
+		
+		
+		return false;
+	}
+	
+}

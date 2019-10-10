@@ -1,0 +1,9 @@
+package mail;
+
+import javax.mail.Authenticator;
+
+public class MyAuthenticator extends Authenticator {
+
+	
+	
+}
