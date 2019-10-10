@@ -7,7 +7,6 @@ public class MultiMailSenderInfo extends MailSendInfo {
 	
 	//邮件的抄送者 也可以是多个
 	private String[] ccs;
-
 	
 	public String[] getRevices() {
 		return revices;

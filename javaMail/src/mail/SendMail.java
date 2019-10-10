@@ -79,7 +79,7 @@ public class SendMail {
 			MimeBodyPart image = new MimeBodyPart();
 			//读取本地文件
 			DataHandler dh = new DataHandler(new FileDataSource("./image/SGS128.png"));
-			//将图牌添加到数据节点
+			//将图片添加到数据节点
 			image.setDataHandler(dh);
 			image.setContentID("image_fairy_tail");	//添加一个唯一个的id 后面会用到的
 			
