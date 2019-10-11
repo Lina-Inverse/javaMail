@@ -20,8 +20,8 @@ import javax.mail.internet.MimeUtility;
 
 public class SendMail {
 
-	private static final String sendMail = "********@qq.com";
-	private static final String reviceMail = "********@qq.com";
+	private static final String sendMail = "810458068@qq.com";
+	private static final String reviceMail = "4987035@qq.com";
 	
 	public static void main(String[] args) {
 		
@@ -36,14 +36,14 @@ public class SendMail {
 		try {
 //			message.setSubject("这个一封电子邮件。。。。");
 //			message.setText("这个邮件真的是没有点意思");
-//			message.setFrom(new InternetAddress("********"));
+//			message.setFrom(new InternetAddress("810458068@qq.com"));
 
 			message = createMimeMessage(session, sendMail, reviceMail);
 			
 			Transport transport = session.getTransport();
-			transport.connect("smtp.qq.com", 25 , "********", "********");
+			transport.connect("smtp.qq.com", 25 , "810458068@qq.com", "kzmuprjqoondbdee");
 			
-			transport.sendMessage(message , new Address[]{new InternetAddress(reviceMail), new InternetAddress("********@163.com")});
+			transport.sendMessage(message , new Address[]{new InternetAddress(reviceMail), new InternetAddress("15986658309@163.com")});
 			 
 			System.out.println("邮件发送成功...");
 			transport.close();
