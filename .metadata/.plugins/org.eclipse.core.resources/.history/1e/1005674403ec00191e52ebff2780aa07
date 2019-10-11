@@ -164,10 +164,10 @@ public class MultiMailSender {
 		MultiMailSenderInfo mailInfo = new MultiMailSenderInfo();
 		mailInfo.setMailServerHost("smtp.qq.com");
 		mailInfo.setMailServerPort(25);
-		mailInfo.setFromAddress("********");
-		mailInfo.setToAdderss(new String[]{"*********", "********", "********"});
-		mailInfo.setCcs(new String[]{"*******"});
-		mailInfo.setPassword("**********");
+		mailInfo.setFromAddress("810458068@qq.com");
+		mailInfo.setToAdderss(new String[]{"15986658309@163.com", "290201659@qq.com", "xmy_xf@163.com"});
+		mailInfo.setCcs(new String[]{"4987035@qq.com"});
+		mailInfo.setPassword("jhvkxbbqntetbfib");
 //		mailInfo.setPassword("kzmuprjqoondbdee");
 		mailInfo.setUserName("ƒ„∞÷∞÷");
 		mailInfo.setSubject("≤‚ ‘java send email");

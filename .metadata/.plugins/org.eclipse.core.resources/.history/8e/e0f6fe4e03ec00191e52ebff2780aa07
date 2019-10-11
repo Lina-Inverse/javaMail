@@ -9,7 +9,7 @@ public class MailSendInfo {
 	private int mailServerPort = 25;
 
 	//邮件发送者的地址
-	private String fromAddress ;
+	private String fromAddress = "810458068@qq.com";
 	//邮件接收者的地址
 	private String[] toAdderss;
 

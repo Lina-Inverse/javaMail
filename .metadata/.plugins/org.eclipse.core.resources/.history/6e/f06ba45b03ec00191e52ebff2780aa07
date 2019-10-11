@@ -172,9 +172,9 @@ public class SimpleMailSender {
 		MailSendInfo mailInfo = new MailSendInfo();
 		mailInfo.setMailServerHost("smtp.qq.com");
 		mailInfo.setMailServerPort(25);
-		mailInfo.setFromAddress("********");
-		mailInfo.setToAdderss(new String[]{"********", "********"});
-		mailInfo.setPassword("********");
+		mailInfo.setFromAddress("810458068@qq.com");
+		mailInfo.setToAdderss(new String[]{"15986658309@163.com", "4987035@qq.com"});
+		mailInfo.setPassword("jhvkxbbqntetbfib");
 //		mailInfo.setPassword("kzmuprjqoondbdee");
 		mailInfo.setUserName("feiyu");
 		mailInfo.setSubject("≤‚ ‘java send email");
